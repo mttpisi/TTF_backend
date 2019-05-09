@@ -1,0 +1,53 @@
+{
+    "preiscritti":[
+        {
+            "id":1,
+            "nome":"John 1",
+            "cognome":"Doe",
+            "telefono":"02 12345678",
+            "email":"johndoe@fake.com"
+        },
+        {
+            "id":2,
+            "nome":"John 2",
+            "cognome":"Doe",
+            "telefono":"02 12345678",
+            "email":"johndoe@fake.com"
+        },
+        {
+            "id":3,
+            "nome":"John 3",
+            "cognome":"Doe",
+            "telefono":"02 12345678",
+            "email":"johndoe@fake.com"
+        },
+        {
+            "id":4,
+            "nome":"John 4",
+            "cognome":"Doe",
+            "telefono":"02 12345678",
+            "email":"johndoe@fake.com"
+        },
+        {
+            "id":5,
+            "nome":"John 5",
+            "cognome":"Doe",
+            "telefono":"02 12345678",
+            "email":"johndoe@fake.com"
+        },
+        {
+            "id":6,
+            "nome":"John 6",
+            "cognome":"Doe",
+            "telefono":"02 12345678",
+            "email":"johndoe@fake.com"
+        },
+        {
+            "id":7,
+            "nome":"John 7",
+            "cognome":"Doe",
+            "telefono":"02 12345678",
+            "email":"johndoe@fake.com"
+        }
+    ]
+}

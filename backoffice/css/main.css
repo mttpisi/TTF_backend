@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    max-width: 100%;
+}
+
+.col{
+    padding:0.7em;
+}
+
+#sideBarNav{
+    padding: 0.5em;
+}
