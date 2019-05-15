@@ -56,34 +56,13 @@ app.post('/preregister',function(req,res){
     req.on('end', function () {
         //inserisce in userData i dati, sottoforma (parse) di JSON
         let userData = JSON.parse(item);
+        //let userData = qs.parse(item);
+        console.log(userData.nome);
         //crea un token univoco in base al timestamp tramite uuidv1
         userData.token = uuidv1();
-        console.log(userData);
+        /* console.log(userData); */
         //il server prova a connettersi al server mongodb(locale)
-        mongoClient.connect("mongodb://" + process.env.MONGODB_URL + ":" + process.env.MONGODB_PORT + "/backofficeDB",function(err,client){
-            //se non ci sono errori procede, se no risponde con un errore
-            if(!err){
-                //ricava il database
-                let db = client.db('backofficeDB');
-                //inserisci un documento nella collezione 'regOpenDay'
-                db.collection('regOpenDay').insertOne(userData,{w:1},function(err,result){
-                    //se non ci sono errori procede, se no risponde con un errore
-                    if(!err){
-                        //chiudi la connessione e reindirizza il client alla landing
-                        client.close();
-                        res.json({token:userData.token}); 
-                    }else{
-                        //chiudi la connessione e mostra un errore
-                        client.close();
-                        res.send('Si è verificato un errore inaspettato');
-                    }
-                });
-            }else{
-                //chiudi la connessione e mostra un errore
-                console.log(err);
-                res.send('Si è verificato un errore inaspettato');
-            }
-        });
+       res.json({token:userData.token});
 	});
 });
 
