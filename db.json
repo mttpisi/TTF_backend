@@ -1,0 +1,68 @@
+{
+  "utentiPreiscritti": [
+    {
+      "nome": "prova",
+      "cognome": "prova",
+      "id": 1
+    },
+    {
+      "nome": "1",
+      "cognome": "1",
+      "email": "12@sd.it",
+      "prefissoTel": {
+        "0": {},
+        "1": {}
+      },
+      "telefono": "11",
+      "informativa": true,
+      "id": 2
+    },
+    {
+      "nome": "1",
+      "cognome": "2",
+      "email": "12@sd.it",
+      "prefissoTel": {
+        "0": {},
+        "1": {}
+      },
+      "telefono": "2",
+      "informativa": true,
+      "id": 3
+    },
+    {
+      "nome": "1",
+      "cognome": "2",
+      "email": "2sda@sd.as",
+      "prefissoTel": {
+        "0": {},
+        "1": {}
+      },
+      "telefono": "1231",
+      "informativa": true,
+      "id": 4
+    },
+    {
+      "nome": "1",
+      "cognome": "1",
+      "email": "2@sda.it",
+      "prefissoTel": "02",
+      "telefono": "231",
+      "informativa": true,
+      "token": 0.041034248827627184,
+      "id": 5
+    },
+    {
+      "nome": "1",
+      "cognome": "1",
+      "email": "2@sda.it",
+      "prefissoTel": "02",
+      "telefono": "21",
+      "informativa": true,
+      "token": 0.6257722925862472,
+      "id": 6
+    }
+  ],
+  "utentiRegistrati": [],
+  "partecipantiOpenDay": [],
+  "openDay": []
+}
